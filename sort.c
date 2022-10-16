@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int printArray(int *arr, int length) {
-  for (int i = 0; i < length; i++) {
-    printf("%d ", arr[i]);
-  }
-  printf("\n");
-  return 0;
-}
+#include "util.h"
 
 int mergeSort(int *arr, int length) {
   if (length <= 1) {
